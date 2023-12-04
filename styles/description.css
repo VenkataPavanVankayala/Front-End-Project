@@ -1,0 +1,44 @@
+*{
+    margin:0; padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*styles for page layout*/
+.column{
+    float: left;
+    width: 50%;
+    padding: 0% 1%;
+    display: inline;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#left{
+    border-right: 2px double orange;
+}
+p{
+    text-align: justify;
+}
+/*table stylings*/
+div .column table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+div .column table th,td {
+    border: 2px solid black;
+    padding: 8px;
+}
+
+div .column table th {
+    background-color: rgb(125, 125, 125);
+}
+
+div .column table tr {
+    background-color: rgb(164, 163, 163);
+}
+
+div .column table tr:hover {
+    background-color: hsl(0, 0%, 61%);
+}

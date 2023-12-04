@@ -1,0 +1,17 @@
+.column{
+    float: left;
+    width: 50%;
+    padding: 0% 1%;
+    display: inline;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#left{
+    border-right: 2px double orange;
+}
+p{
+    text-align: justify;
+}
